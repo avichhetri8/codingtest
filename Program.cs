@@ -17,9 +17,13 @@ namespace codingtest
             Console.WriteLine("reverse string of {0} is {1}", "Apple", Reverse.strReverse("Apple"));
 
 
-            Console.WriteLine("string is palindrome {0} is {1}", "dad", Reverse.strReverse("dad"));
+            Console.WriteLine("string is palindrome {0} is {1}", "dad", Reverse.strPalindrome("dad"));
 
             Console.WriteLine("string is palindrome {0} is {1}", "Apple", Reverse.strPalindrome("Apple"));
+
+            Reverse.countEachCharacter("Apple");
+
+            Console.WriteLine("string remove duplicate of {0} is {1}", "Apple", Reverse.removeString("Apple"));
 
         }
     }
